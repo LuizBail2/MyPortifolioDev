@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luiz Gustavo | Desenvolvedor Web</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container topbar__inner">
+    <a class="brand" href="#inicio">
+      <span class="brand__name">LUIZ</span>
+      <span class="brand__accent">GUSTAVO</span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav__link is-active" href="#inicio">Início</a>
+      <a class="nav__link" href="#sobre">Sobre</a>
+      <a class="nav__link" href="#projetos">Projetos</a>
+      <a class="nav__link" href="#contato">Contato</a>
+    </nav>
+  </div>
+
+  <div class="actions">
+  <button class="menu-btn" id="btnMenu" type="button" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+
+</header>
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar__top">
+    <span class="sidebar__title">Menu</span>
+    <button class="sidebar__close" id="btnCloseSidebar" type="button" aria-label="Fechar menu">✕</button>
+  </div>
+
+  <nav class="sidebar__nav">
+    <a class="sidebar__link" href="#inicio">Início</a>
+    <a class="sidebar__link" href="#sobre">Sobre</a>
+    <a class="sidebar__link" href="#projetos">Projetos</a>
+    <a class="sidebar__link" href="#contato">Contato</a>
+  </nav>
+
+  <div class="sidebar__bottom">
+    <a class="btn btn--primary full" href="https://wa.me/5542988672277" target="_blank">WhatsApp</a>
+  </div>
+</aside>
+
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <h1 class="hero__title">
+        Olá, eu sou <br>
+        <span class="hero__role">Desenvolvedor Web</span>
+      </h1>
+
+      <p class="hero__desc">
+        Sou Luiz Gustavo, estudante de Análise e Desenvolvimento de Sistemas,
+        focado em criar aplicações web modernas, responsivas e funcionais.
+        Desenvolvo sistemas, landing pages e projetos full stack.
+      </p>
+
+      <div class="hero__buttons">
+        <a class="btn btn--primary" href="#projetos">Ver Projetos</a>
+
+        <a class="btn btn--outline"
+           href="https://wa.me/5542988672277"
+           target="_blank">
+          Contato WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__photo">
+      <div class="avatar">
+        <img src="images/minha.foto.jpeg" alt="Foto Luiz Gustavo">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+  <div class="container">
+    <h2 class="section__title">Sobre Mim</h2>
+    <p class="section__subtitle">
+      Conheça minhas habilidades e experiências
+    </p>
+
+    <div class="about">
+      <div class="about__left card">
+        <p>
+          Sou estudante de ADS e apaixonado por tecnologia.
+          Tenho experiência com desenvolvimento front-end e back-end,
+          criando projetos completos e funcionais.
+        </p>
+
+        <div class="tech-logos">
+
+  <i class="devicon-html5-plain colored"></i>
+  <i class="devicon-css3-plain colored"></i>
+  <i class="devicon-javascript-plain colored"></i>
+  <i class="devicon-bootstrap-plain colored"></i>
+  <i class="devicon-laravel-plain colored"></i>
+  <i class="devicon-nodejs-plain colored"></i>
+  <i class="devicon-mysql-plain colored"></i>
+  <i class="devicon-git-plain colored"></i>
+
+</div>
+
+
+      <div class="about__right">
+        <h3 class="mini-title">Tecnologias</h3>
+
+        <div class="skills">
+          <div class="skill card">HTML5</div>
+          <div class="skill card">CSS3</div>
+          <div class="skill card">JavaScript</div>
+          <div class="skill card">Bootstrap</div>
+          <div class="skill card">Laravel</div>
+          <div class="skill card">Node.js</div>
+          <div class="skill card">MySQL</div>
+          <div class="skill card">Git</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos" class="section">
+  <div class="container">
+    <h2 class="section__title">Projetos</h2>
+    <p class="section__subtitle">
+      Alguns sistemas e aplicações que desenvolvi
+    </p>
+
+    <div class="projects">
+
+      <div class="project card">
+        <h3 class="project__title">Sistema de Controle de Estoque</h3>
+        <p class="project__desc">
+          Sistema web com autenticação, dashboard, cadastro e controle de produtos.
+        </p>
+        <div class="tags">
+          <span class="tag">Laravel</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Bootstrap</span>
+        </div>
+          <a class="btn btn--outline"
+        href="https://github.com/LuizBail2/WEB-Controle-de-Estoque-Minimalista"target="_blank">
+        Ver no GitHub
+        </a>
+      </div>
+
+      <div class="project card">
+        <h3 class="project__title">App Restaurante</h3>
+        <p class="project__desc">
+          Aplicação web com carrinho, banco SQLite e sistema de pedidos.
+        </p>
+        <div class="tags">
+          <span class="tag">Flutter</span>
+          <span class="tag">Dart</span>
+          <span class="tag">Firebase</span>
+        </div>
+          <a class="btn btn--outline"
+        href="https://github.com/LuizBail2/APP_RESTAURANTE"target="_blank">
+        Ver no GitHub
+        </a>
+      </div>
+
+      <div class="project card">
+        <h3 class="project__title">Portfólio Profissional</h3>
+        <p class="project__desc">
+          Site responsivo com animações, dark mode e formulário funcional.
+        </p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+          <a class="btn btn--outline"
+        href="https://github.com/LuizBail2/MyReposit-rio"target="_blank">
+        Ver no GitHub
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section">
+  <div class="container">
+    <h2 class="section__title">Entre em Contato</h2>
+    <p class="section__subtitle">
+      Vamos conversar sobre seu projeto ou sistema?
+    </p>
+
+    <div class="contact">
+      
+      <!-- INFORMAÇÕES -->
+      <div class="contact__info card">
+        <h3 class="mini-title">Informações de Contato</h3>
+
+        <div class="info-list">
+
+          <div class="info">
+            <span class="info__icon">✉️</span>
+            <div>
+              <div class="info__label">Email</div>
+              <div class="info__value">luizgustavobail4@gmail.com</div>
+            </div>
+          </div>
+
+          <div class="info">
+            <span class="info__icon">💬</span>
+            <div>
+              <div class="info__label">WhatsApp</div>
+              <div class="info__value">(42) 98867-2277</div>
+            </div>
+          </div>
+
+          <div class="info">
+            <span class="info__icon">📍</span>
+            <div>
+              <div class="info__label">Localização</div>
+              <div class="info__value">Brasil</div>
+            </div>
+          </div>
+
+          <div class="info">
+            <span class="info__icon">⏱️</span>
+            <div>
+              <div class="info__label">Tempo de Resposta</div>
+              <div class="info__value">Até 24 horas</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- FORMULÁRIO -->
+      <form class="contact__form card" onsubmit="return false;">
+        <h3 class="mini-title">Envie sua Mensagem</h3>
+
+        <div class="field">
+          <label>Nome Completo *</label>
+          <input type="text" name="nome" placeholder="Seu nome completo" required>
+        </div>
+
+        <div class="field">
+          <label>Email *</label>
+          <input type="email" name="email" placeholder="exemplo@gmail.com" required>
+        </div>
+
+        <div class="field">
+          <label>Telefone *</label>
+          <input type="tel" name="telefone" placeholder="+55 (xx) xxxxx-xxxx" required>
+        </div>
+
+        <div class="field">
+          <label>Tipo de Projeto *</label>
+          <input type="text" name="assunto" placeholder="Ex: Landing Page, Sistema Web, E-commerce..." required>
+        </div>
+
+        <div class="field">
+          <label>Mensagem *</label>
+          <textarea name="mensagem" rows="5" placeholder="Descreva seu projeto..." required></textarea>
+        </div>
+
+        <button class="btn btn--primary full" type="submit">
+          Enviar Mensagem ↗
+        </button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
